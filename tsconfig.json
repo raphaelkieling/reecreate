@@ -5,6 +5,8 @@
     "baseUrl": "./",
     "moduleResolution": "node",
     "outDir": "./dist",
+    "sourceMap": false,
+    "declaration": true,
     "esModuleInterop": true,
     "rootDir": "./src",
     "strict": true
