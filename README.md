@@ -8,6 +8,13 @@
 
 Reecrate is a library to clone deep object to minimize the work that is clone a big store using the concept from redux "Immutable Update patterns", see in https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns/
 
+### Install
+
+```
+yarn add reecrate
+npm install --save reecrate
+```
+
 Without Reecrate:
 
 ```js
