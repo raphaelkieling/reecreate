@@ -2,13 +2,13 @@
   <img align="center" src="./icon.svg" width="200px">
 </div>
 <p align="center">
-  <h1 align="center">Reecreate</h1>
+  <h1 align="center">Reecrate</h1>
 </p>
 
 
 Reecrate is a library to clone deep object to minimize the work that is clone a big store using the concept from redux "Immutable Update patterns", see in https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns/
 
-Without Reecreate:
+Without Reecrate:
 
 ```js
 const appReducer = (state, action) => {
@@ -33,10 +33,10 @@ const appReducer = (state, action) => {
 };
 ```
 
-With Reecreate:
+With Reecrate:
 
 ```js
-const appReducer = Reecreate.reducer((draft, action) => {
+const appReducer = Reecrate.reducer((draft, action) => {
   switch (action.type) {
     case "SET_DEEP_LOAD":
       draft.screens.loaders.someScreen.active = true;

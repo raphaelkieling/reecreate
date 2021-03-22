@@ -4297,10 +4297,10 @@ redux@^4.0.5:
     loose-envify "^1.4.0"
     symbol-observable "^1.2.0"
 
-reecrate@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/reecrate/-/reecrate-1.0.1.tgz#40683a9423fb937415608df39bb06339582ade73"
-  integrity sha512-cS5NpA/nECuscth6vj4RPgOh0bgXatgm+veH+sUjKU90Y0cYiyktyem4doCWBWMcRXTnK0n61QmweuzhFM43gA==
+reecrate@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/reecrate/-/reecrate-1.0.2.tgz#dc06de88d557dd4d3141a6342297ee4913c1e2ed"
+  integrity sha512-C1PY+zzOPjZodXuxql64zERyG1Xkw+xj/fqpKuP0LOdSL60yrymvy0FdmrLnKYyygHeDuVnhaxFnRTkc4M4ejQ==
 
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"

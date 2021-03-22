@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import { createStore } from "redux";
-import Reecreate from "reecrate/src/core";
+import Reecrate from "reecrate";
 
 const initialStore = { name: "Default name", count: 0 };
-// USING the Reecreate. Only add Reecreate.reducer. It's done
-const reducer = Reecreate.reducer((draft = initialStore, action) => {
+// USING the Reecrate. Only add Reecrate.reducer. It's done
+const reducer = Reecrate.reducer((draft = initialStore, action) => {
   switch (action.type) {
     case "INCREMENT":
       draft.count++;
