@@ -1,7 +1,10 @@
-<div style="display: flex; justify-content: center; flex-direction: column; font-size: 24px;">
-    <img src="./icon.svg" height="200px">
-    <h4 align="center"> Reecreate </h4>
+<div align="center">
+  <img align="center" src="./icon.svg" width="200px">
 </div>
+<p align="center">
+  <h1 align="center">Reecreate</h1>
+</p>
+
 
 Reecrate is a library to clone deep object to minimize the work that is clone a big store.
 
